@@ -78,9 +78,20 @@ p {
   font-family: "Montserrat", sans-serif;
   margin: 0 0 15px;
   line-height: 24px;
-  font-weight: 400;
+  font-weight: 500;
   color: #838383;
 }
+
+footer-textbox {
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+  margin: 0 0 15px;
+  line-height: 24px;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+
 p:last-child {
   margin-bottom: 0;
 }
@@ -90,7 +101,7 @@ a {
   text-decoration: none;
   cursor: pointer;
   font-size: 13px;
-  font-weight: 400;
+  font-weight: 700;
   -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
 }
@@ -1704,7 +1715,7 @@ header li ul.sub_menu li a:hover {
 }
 
 header.sticky_header {
-  background-color: #18181c;
+  background-color: #273b91;
   margin: 0;
   padding: 5px;
   -webkit-box-shadow: 0 0 42px rgba(0, 0, 0, 0.08);
@@ -1755,7 +1766,7 @@ header.sticky_header {
 -------------------------------------------------------- */
 footer {
   padding: 50px 0 100px;
-  background-color: #0b031b;
+  background-color: #273b91;
 }
 footer .footer_box {
   position: relative;
@@ -1861,7 +1872,7 @@ footer .newsletter_form .form-control {
   line-height: 1.7;
   text-transform: uppercase;
   color: #fff;
-  font-weight: 500;
+  font-weight: 700;
   padding: 12px 40px;
   border-radius: 0;
   outline: 0 !important;
@@ -1917,9 +1928,9 @@ footer .newsletter_form .form-control {
   transition: all 300ms ease-in-out;
 }
 .btn-primary:hover {
-  background-color: #18181c;
+  background-color: #1f2f74;
   color: #ffffff;
-  border: solid 1px #18181c;
+  border: solid 1px #1f2f74;
   -webkit-transition: all 300ms ease-in-out;
   transition: all 300ms ease-in-out;
 }
