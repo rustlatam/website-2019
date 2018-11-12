@@ -71,7 +71,7 @@ $(document).ready(function() {
     });
 
     $(".brand_carousel").owlCarousel({
-        loop:true,
+        loop:false,
         autoplay:true,
         smartSpeed:450,
         autoplayHoverPause:false,
