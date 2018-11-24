@@ -172,6 +172,15 @@ ul.nosyely_list {
   font-weight: 400;
 }
 
+/* FIXME: find a better fix for this */
+@media only screen and (max-width: 990px) {
+    .countdown div:nth-of-type(3),
+    .countdown div:nth-of-type(4),
+    .countdown div:nth-of-type(5) {
+        display: none;
+    }
+}
+
 .bg-img {
   border-radius: 4px;
   background-size: cover;
@@ -1680,7 +1689,7 @@ img {
 }
 .navbar .logo img {
   float: left;
-  max-width: 200px;
+  max-width: 150px;
   margin-right: 3px;
 }
 
