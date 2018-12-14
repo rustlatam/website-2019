@@ -1694,7 +1694,7 @@ img {
 
 @media only screen and (min-width: 769px) {
   .navbar .logo img {
-    max-width: 300px;
+    max-width: 250px;
   }
 }
 
