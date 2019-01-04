@@ -3232,3 +3232,12 @@ textarea.form-control {
 .accordion_card .card-body {
   font-size: 16px;
 }
+
+.venue-pics .col {
+    padding: 0;
+}
+
+.city-img > .col {
+    padding: 0;
+}
+
