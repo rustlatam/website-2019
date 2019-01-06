@@ -2470,6 +2470,13 @@ Cover
   color: #838383;
 }
 
+.col-location {
+  background-color: #0059a8;
+}
+.icon_box_location i, .icon_box_location .content p, .icon_box_location .box_title {
+  color: white;
+}
+
 /*  ----------------------------------------------------
 6 speakers
 -------------------------------------------------------- */
