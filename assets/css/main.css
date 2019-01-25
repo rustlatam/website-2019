@@ -2760,7 +2760,7 @@ Cover
 }
 
 .event-calendar-entry {
-  padding-bottom: 1rem;
+  padding: 1rem 0 1.25rem;
 }
 
 .event-calendar-entry-inner {
@@ -2784,6 +2784,16 @@ Cover
   color: rgb(24, 24, 28);
   font-size: 1.2rem;
   padding: 0.25rem;
+  line-height: 1.6;
+}
+
+.event-calendar-entry-inner .who {
+  display: flex;
+  flex-direction: column;
+}
+
+.event-calendar-entry-inner .who h4 {
+  margin: 0.25rem 0;
 }
 
 .event-calendar-entry-inner .who .avatar {
@@ -2802,20 +2812,29 @@ Cover
   }
 
   .event-calendar-entry-inner .when {
-    order: 2;
+    order: 1;
     max-width: 140px;
     min-width: 140px;
   }
+
   .event-calendar-entry-inner .who {
-    order: 1;
-    min-width: 180px;
-    max-width: 180px;
+    order: 3;
+    flex-direction: row;
+    max-width: 380px;
+    align-items: center;
+  }
+  .event-calendar-entry-inner .who .avatar {
+    max-width: 120px;
   }
   .event-calendar-entry-inner .who .avatar img {
-    width: 100px;
+    width: 80px;
+  }
+  .event-calendar-entry-inner .who .name {
+    text-align: left;
+    width: 260px;
   }
   .event-calendar-entry-inner .what {
-    order: 3;
+    order: 2;
     text-align: left;
   }
 }
