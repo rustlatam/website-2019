@@ -2730,6 +2730,7 @@ Cover
 /*  ----------------------------------------------------
 8 tabs
 -------------------------------------------------------- */
+
 .event-calendar .event-title {
   background-color: #0059a8;
   color: #ffffff;
@@ -2795,6 +2796,30 @@ Cover
   box-shadow: 0 0 2px 2px lightgray;
 }
 
+@media only screen and (min-width: 768px) {
+  .event-calendar-entry-inner {
+    flex-direction: row;
+  }
+
+  .event-calendar-entry-inner .when {
+    order: 2;
+    max-width: 140px;
+    min-width: 140px;
+  }
+  .event-calendar-entry-inner .who {
+    order: 1;
+    min-width: 180px;
+    max-width: 180px;
+  }
+  .event-calendar-entry-inner .who .avatar img {
+    width: 100px;
+  }
+  .event-calendar-entry-inner .what {
+    order: 3;
+    text-align: left;
+  }
+}
+
 .table.event-calendar tbody td,
 .table.event-calendar tbody th {
   padding: 30px 25px;
@@ -2819,6 +2844,8 @@ Cover
   margin-bottom: 5px;
   font-weight: 500;
 }
+
+
 
 /*  ----------------------------------------------------
 9 testimonial
@@ -3263,4 +3290,3 @@ textarea.form-control {
 .city-img > .col {
     padding: 0;
 }
-
