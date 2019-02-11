@@ -205,6 +205,14 @@ ul.nosyely_list {
   margin: 0 auto;
 }
 
+.brand_mozilla {
+ 	padding-top: 50px;
+ 	padding-right: 50px;
+ 	padding-left: 50px;
+ 	padding-bottom: 50px;
+ 	height: 150px;
+}
+
 .gold > .brand_item img {
   max-width: 200px;
 }
