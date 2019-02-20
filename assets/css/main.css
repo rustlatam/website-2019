@@ -1,5 +1,4 @@
-/*
- * Evento -  Event html  Template
+/* * Evento -  Event html  Template
  * Build Date: jan 2018
  * Author: colorlib
  * Copyright (C) 2018 colorlib
@@ -116,6 +115,7 @@ a {
   -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
 }
+
 
 a:hover,
 a:focus,
@@ -2825,6 +2825,12 @@ Cover
   box-shadow: 0 0 2px 2px lightgray;
 }
 
+.event-calendar-entry-inner .modal-body {
+    text-align: left;
+    width: 100%;
+    padding: 25px;
+}
+
 @media only screen and (min-width: 768px) {
   .event-calendar-entry-inner {
     flex-direction: row;
@@ -2857,6 +2863,71 @@ Cover
     text-align: left;
   }
 }
+/* ---------- Workshops ------------*/
+.event-calendar-entry-inner .level {
+  text-align: center;
+  color: rgb(24, 24, 28);
+  font-weight: 600;
+}
+
+.event-calendar-entry-inner .what_ws {
+  color: rgb(24, 24, 28);
+  font-size: 1.2rem;
+  padding: 0.25rem;
+  line-height: 1.6;
+
+}
+
+.event-calendar-entry-inner .who_ws {
+  display: flex;
+  flex-direction: column;
+}
+
+.event-calendar-entry-inner .who_ws h4, .ws {
+  margin: 0.25rem 0;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.event-calendar-entry-inner .what_ws a, .modal-title {
+  font-size: 18px;
+}
+
+@media only screen and (min-width: 768px) {
+  .event-calendar-entry-inner {
+    flex-direction: row;
+     }
+
+  .event-calendar-entry-inner .level {
+    order: 2;
+    max-width: 140px;
+    min-width: 140px;
+  }
+
+  .event-calendar-entry-inner .who_ws {
+    order: 3;
+    flex-direction: row;
+    max-width: 380px;
+    align-items: center;
+  }
+
+  .event-calendar-entry-inner .who_ws .name_ws {
+    text-align: center;
+
+  }
+
+  .event-calendar-entry-inner .what_ws {
+    order: 1;
+    text-align: left;
+    color: rgb(24, 24, 28);
+    font-size: 1.2rem;
+    padding: 0.25rem;
+    line-height: 1.6;
+    margin-left: 50px;
+  }
+
+}
+/*--------------Workshops end --------*/
 
 .table.event-calendar tbody td,
 .table.event-calendar tbody th {
