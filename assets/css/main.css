@@ -116,6 +116,7 @@ a {
   transition: all 0.4s ease-in-out;
 }
 
+
 a:hover,
 a:focus,
 a:active {
@@ -2824,6 +2825,12 @@ Cover
   box-shadow: 0 0 2px 2px lightgray;
 }
 
+.event-calendar-entry-inner .modal-body {
+    text-align: left;
+    width: 100%;
+    padding: 25px;
+}
+
 @media only screen and (min-width: 768px) {
   .event-calendar-entry-inner {
     flex-direction: row;
@@ -2858,6 +2865,7 @@ Cover
 }
 /* ---------- Workshops ------------*/
 .event-calendar-entry-inner .level {
+  text-align: center;
   color: rgb(24, 24, 28);
   font-weight: 600;
 }
@@ -2867,7 +2875,7 @@ Cover
   font-size: 1.2rem;
   padding: 0.25rem;
   line-height: 1.6;
-  margin-left: 50px;
+
 }
 
 .event-calendar-entry-inner .who_ws {
@@ -2881,10 +2889,14 @@ Cover
   margin-bottom: 10px;
 }
 
+.event-calendar-entry-inner .what_ws a, .modal-title {
+  font-size: 18px;
+}
+
 @media only screen and (min-width: 768px) {
   .event-calendar-entry-inner {
     flex-direction: row;
-  }
+     }
 
   .event-calendar-entry-inner .level {
     order: 2;
@@ -2903,10 +2915,17 @@ Cover
     text-align: center;
 
   }
+
   .event-calendar-entry-inner .what_ws {
     order: 1;
     text-align: left;
+    color: rgb(24, 24, 28);
+    font-size: 1.2rem;
+    padding: 0.25rem;
+    line-height: 1.6;
+    margin-left: 50px;
   }
+
 }
 /*--------------Workshops end --------*/
 
