@@ -2857,6 +2857,7 @@ Cover
   .event-calendar-entry-inner .who .name {
     text-align: left;
     width: 260px;
+    cursor: pointer;
   }
   .event-calendar-entry-inner .what {
     order: 2;
@@ -3398,4 +3399,8 @@ textarea.form-control {
 
 .city-img > .col {
     padding: 0;
+}
+
+.who-modal .modal-dialog {
+  margin: 10px auto;
 }
