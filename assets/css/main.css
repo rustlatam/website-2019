@@ -205,12 +205,10 @@ ul.nosyely_list {
   margin: 0 auto;
 }
 
-.brand_mozilla {
- 	padding-top: 50px;
- 	padding-right: 50px;
- 	padding-left: 50px;
- 	padding-bottom: 50px;
- 	height: 150px;
+.brand-near {
+ 	padding-top: 20px;
+  padding-bottom: 20px;
+ 	height: 120px;
 }
 
 .gold > .brand_item img {
