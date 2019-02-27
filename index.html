@@ -60,6 +60,9 @@
               <a class="nav-link " href="#location">Location</a>
             </li>
             <li class="nav-item">
+              <a class="nav-link " href="#how-to-get-there">How to get there</a>
+            </li>
+            <li class="nav-item">
               <a class="nav-link " href="#speakers">Schedule</a>
             </li>
             <li class="nav-item">
@@ -237,7 +240,7 @@
             </div>
           </div>
         </div>
-        <div class="row mt25">
+        <div id="location" class="row mt25">
           <div class="col col-12 col-md-6 col-lg-4 col-location">
             <div class="icon_box_two icon_box_location">
               <i class="ion-ios-location-outline"></i>
@@ -275,44 +278,8 @@
     </section>
     <!-- event info end -->
 
-    <!-- event hotel -->
-    <section class="bg-gray pt100 pb100" id="hotel">
-      <div class="container">
-        <div class="row">
-          <div class="col col-md-8 ml-md-auto mr-md-auto">
-            <div class="section_title mb15">
-              <h3 class="title">Hotel Information</h3>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="container">
-        <div class="row">
-          <div class="col col-md-8 ml-md-auto mr-md-auto">
-            <div class="brand_carousel">
-              <div class="brand_item text-center">
-                <p>
-                  The conference has a running agreement with the hotel
-                  <a href="https://www.balmoral.com.uy/es/" target="_blank">Balmoral Plaza</a>, in order to provide discounted hosting to the conference
-                  attendees. The cost is USD 40 per night (breakfast included).
-                </p>
-                <p>
-                  If you wish to take advantage of this to make your
-                  reservation, please send an email with the subject
-                  <strong>"Conferencia Rust Latam"</strong> to
-                  <a href="mailto:reservas@balmoral.com.uy">their reservations email</a>:
-                  <a href="mailto:reservas@balmoral.com.uy">reservas@balmoral.com.uy</a>, so that you get the discount applied.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- event hotel final -->
-
-    <!-- location section -->
-    <section id="location" class="pt100 pb50">
+    <!-- how to get there section -->
+    <section id="how-to-get-there" class="pt100 pb50">
       <div class="container">
         <div class="section_title mb15">
           <h3 class="title">How to get there</h3>
@@ -345,7 +312,7 @@
         </div>
       </div>
     </section>
-    <!-- location section end -->
+    <!-- how to get there section -->
 
     <!-- event countdown -->
     <section class="bg-img pt70 pb70" style="background-image: url('assets/img/bg/slider.png');">
@@ -362,61 +329,6 @@
       </div>
     </section>
     <!-- event count down end -->
-
-    <!-- coc section -->
-    <section class="bg-gray pt100 pb100" id="coc">
-      <div class="container">
-        <div class="section_title mb15">
-          <h3 class="title">Code of conduct</h3>
-        </div>
-
-        <div class="brand_carousel">
-          <div class="brand_item text-center">
-            <p>
-              RustLATAM is intended to be an inclusive, welcoming conference for
-              everyone. In particular, we do not tolerate harassment of
-              conference participants in any form. Conference participants
-              violating these rules may be sanctioned or expelled from the
-              conference at the discretion of the conference organizers.
-            </p>
-            <p>
-              Harassment includes disparaging verbal comments related to gender,
-              gender identity and expression, sexual orientation, disability,
-              physical appearance, body size, race, age, or religion; sexual
-              images in public spaces; deliberate intimidation; stalking;
-              sustained disruption of talks or other events; inappropriate
-              physical contact; and unwelcome sexual attention. Participants
-              asked to stop any harassing behavior are expected to comply
-              immediately.
-            </p>
-            <p>
-              If a participant engages in harassing behavior, the conference
-              organizers may take any action they deem appropriate, including
-              warning the offender or expulsion from the conference with no
-              refund. If you are being harassed, notice that someone else is
-              being harassed, or have any other concerns, please contact a
-              member of conference staff immediately.
-            </p>
-            <p>
-              Read through
-              <a href="https://www.rust-lang.org/conduct.html" target="_blank">the Rust Project Community Guidelines</a>
-              for a more detailed overview of the intent and goals of the Rust
-              community at large.
-            </p>
-            <p>
-              On-site, conference staff will be identifiable by their
-              differently colored badges and tshirts (we'll update this closer
-              to the show with the specific colors). If you need help of any
-              kind, to report a bad situation, or anything else not specified
-              that we can help with, please find us on site. For less urgent
-              matters, or advance matters,
-              <a href="mailto:coc@rustlatam.org">we can be reached via email</a>.
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- coc section end -->
 
     <!-- speaker section -->
     <section class="pt100 pb100" id="speakers">
@@ -503,9 +415,9 @@
                         <p>
                           El workshop introductorio está orientado a personas que desean conocer Rust y que tienen experiencia en otro lenguaje de programación. Este servirá de introducción a los conceptos fundamentales que hacen a Rust un
                           lenguaje de progrmación diferente como; pertenencia, tiempos de vida y el sistema de tipos.
-                          <p>
-                            Al mismo tiempo los asistentes se podrán familiarizar con la sintaxis del lenguaje.
-                          </p>
+                        <p>
+                          Al mismo tiempo los asistentes se podrán familiarizar con la sintaxis del lenguaje.
+                        </p>
                         </p>
                         <p>
                           El workshop será una mezcla de conceptos teoricos y ejercicios cortos que apliquen a dichos conceptos.
@@ -515,9 +427,9 @@
                         <p>
                           The introductory workshop is aimed at people who want to know Rust and have experience in at least other programming language. This will serve as an introduction to the fundamental concepts
                           that make Rust a different programming language such as ownership, borrowing, lifetimes and the type system.
-                          <p>
-                            The workshop will be a mixture of theoretical concepts and short exercises to learn how to apply those concepts. Over the course of the day the attendees will be able to become familiarized with the syntax of the
-                            language.</p>
+                        <p>
+                          The workshop will be a mixture of theoretical concepts and short exercises to learn how to apply those concepts. Over the course of the day the attendees will be able to become familiarized with the syntax of the
+                          language.</p>
                       </div>
                       <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-dismiss="modal">
@@ -1392,7 +1304,98 @@
         </div>
       </div>
     </section>
-    <!-- brands section end -->
+    <!-- sponsors section end -->
+
+    <!-- hotel information start -->
+    <section class="bg-gray pt100 pb100" id="hotel">
+      <div class="container">
+        <div class="row">
+          <div class="col col-md-8 ml-md-auto mr-md-auto">
+            <div class="section_title mb15">
+              <h3 class="title">Hotel Information</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col col-md-8 ml-md-auto mr-md-auto">
+            <div class="brand_carousel">
+              <div class="brand_item text-center">
+                <p>
+                  The conference has a running agreement with the hotel
+                  <a href="https://www.balmoral.com.uy/es/" target="_blank">Balmoral Plaza</a>, in order to provide discounted hosting to the conference
+                  attendees. The cost is USD 40 per night (breakfast included).
+                </p>
+                <p>
+                  If you wish to take advantage of this to make your
+                  reservation, please send an email with the subject
+                  <strong>"Conferencia Rust Latam"</strong> to
+                  <a href="mailto:reservas@balmoral.com.uy">their reservations email</a>:
+                  <a href="mailto:reservas@balmoral.com.uy">reservas@balmoral.com.uy</a>, so that you get the discount applied.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- hotel information end -->
+
+    <!-- coc section -->
+    <section class="bg-gray pt100 pb100" id="coc">
+      <div class="container">
+        <div class="section_title mb15">
+          <h3 class="title">Code of conduct</h3>
+        </div>
+
+        <div class="brand_carousel">
+          <div class="brand_item text-center">
+            <p>
+              RustLATAM is intended to be an inclusive, welcoming conference for
+              everyone. In particular, we do not tolerate harassment of
+              conference participants in any form. Conference participants
+              violating these rules may be sanctioned or expelled from the
+              conference at the discretion of the conference organizers.
+            </p>
+            <p>
+              Harassment includes disparaging verbal comments related to gender,
+              gender identity and expression, sexual orientation, disability,
+              physical appearance, body size, race, age, or religion; sexual
+              images in public spaces; deliberate intimidation; stalking;
+              sustained disruption of talks or other events; inappropriate
+              physical contact; and unwelcome sexual attention. Participants
+              asked to stop any harassing behavior are expected to comply
+              immediately.
+            </p>
+            <p>
+              If a participant engages in harassing behavior, the conference
+              organizers may take any action they deem appropriate, including
+              warning the offender or expulsion from the conference with no
+              refund. If you are being harassed, notice that someone else is
+              being harassed, or have any other concerns, please contact a
+              member of conference staff immediately.
+            </p>
+            <p>
+              Read through
+              <a href="https://www.rust-lang.org/conduct.html" target="_blank">the Rust Project Community Guidelines</a>
+              for a more detailed overview of the intent and goals of the Rust
+              community at large.
+            </p>
+            <p>
+              On-site, conference staff will be identifiable by their
+              differently colored badges and tshirts (we'll update this closer
+              to the show with the specific colors). If you need help of any
+              kind, to report a bad situation, or anything else not specified
+              that we can help with, please find us on site. For less urgent
+              matters, or advance matters,
+              <a href="mailto:coc@rustlatam.org">we can be reached via email</a>.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- coc section end -->
 
     <!-- get tickets section -->
     <section class="bg-img pt100 pb100" style="background-image: url('assets/img/bg/antel.png');">
@@ -1416,39 +1419,39 @@
     <!-- get tickets section end -->
 
     <!--
-      footer start
-      <footer>
+        footer start
+        <footer>
           <div class="container">
-              <div class="row justify-content-center">
-                  <div class="col-12 col-md-4">
-                      <div class="footer_box">
-                          <div class="footer_header">
-                              <h4 class="footer_title">
-                                  Get the Rust Latam Conf newsletter.
-                              </h4>
-                          </div>
-                          <form name="newsletter" method="POST" netlify>
-                              <div class="footer_box_body">
-                                  <div class="newsletter_form">
-                                      <input type="email" class="form-control" placeholder="yourname@example.com">
-                                      <button class="btn btn-rounded btn-block btn-primary">SIGN UP NOW</button>
-                                  </div>
-                              </div>
-                          </form>
-                      </div>
+            <div class="row justify-content-center">
+              <div class="col-12 col-md-4">
+                <div class="footer_box">
+                  <div class="footer_header">
+                    <h4 class="footer_title">
+                      Get the Rust Latam Conf newsletter.
+                    </h4>
                   </div>
+                  <form name="newsletter" method="POST" netlify>
+                    <div class="footer_box_body">
+                      <div class="newsletter_form">
+                        <input type="email" class="form-control" placeholder="yourname@example.com">
+                        <button class="btn btn-rounded btn-block btn-primary">SIGN UP NOW</button>
+                      </div>
+                    </div>
+                  </form>
+                </div>
               </div>
+            </div>
           </div>
-      </footer>
-    -->
+        </footer>
+        -->
     <div class="copyright_footer">
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-md-6 col-12">
             <p>
               <!--
-                Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0.
-              -->
+                  Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0.
+                -->
               Rust Latam Conf
               <script>
                 document.write(new Date().getFullYear());
@@ -1457,8 +1460,8 @@
               | CC4.0 | This template is made by
               <a href="https://colorlib.com" target="_blank">Colorlib</a>
               <!--
-                Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0.
-              -->
+                  Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0.
+                -->
             </p>
           </div>
           <div class="col-12 col-md-6 ">
