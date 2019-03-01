@@ -2886,7 +2886,9 @@ Cover
   margin: 0.25rem 0;
   font-size: 16px;
   margin-bottom: 10px;
+  cursor: pointer;
 }
+
 
 .event-calendar-entry-inner .what_ws a, .modal-title {
   font-size: 18px;

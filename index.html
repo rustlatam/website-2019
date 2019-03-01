@@ -240,6 +240,9 @@
     <!-- schedule section -->
     <section class="pb50" id="schedule">
       <div class="container">
+        <div class="section_title mb30">
+          <h3 class="title">Schedule</h3>
+        </div>
         <div class="event-calendar">
           <div class="container pb30">
             <header class="pb15">
@@ -641,7 +644,8 @@
                               </button>
                             </div>
                             <div class="modal-body">
-                              <p>Boats is a member of the language design, library, and cargo teams of the Rust Project. They are Senior Research Engineer working on Rust for Mozilla Research. Contributing to Rust since 2014, they've done design work for significant language extensions like generic associated types and constant generics. For the last year, Boats has been focused on adding async/await syntax for nonblocking I/O to Rust.</p>
+                              <p>Boats is a member of the language design, library, and cargo teams of the Rust Project. They are Senior Research Engineer working on Rust for Mozilla Research. Contributing to Rust since 2014, they've done design
+                                work for significant language extensions like generic associated types and constant generics. For the last year, Boats has been focused on adding async/await syntax for nonblocking I/O to Rust.</p>
                             </div>
                             <div class="modal-footer">
                               <button type="button" class="btn btn-secondary" data-dismiss="modal">
@@ -664,11 +668,9 @@
     <!-- schedule section end -->
 
     <!-- workshops section -->
-    <section class="pb30" id="workshops">
+    <section class="pb30" id="schedule">
       <div class="container">
-        <div class="section_title mb30">
-          <h3 class="title">Schedule</h3>
-        </div>
+
         <div class="container pb30">
           <header class="pb15">
             <h4>Workshops Day</h4>
@@ -689,7 +691,7 @@
                 <div class="level">Beginner</div>
                 <div class="who_ws">
                   <div class="name_ws">
-                    <h4 class="ws">The Rust LATAM Team</h4>
+                    <h4 class="ws-rt">The Rust LATAM Team</h4>
                   </div>
                 </div>
                 <div class="what_ws">
@@ -714,9 +716,9 @@
                         <p>
                           El workshop introductorio está orientado a personas que desean conocer Rust y que tienen experiencia en otro lenguaje de programación. Este servirá de introducción a los conceptos fundamentales que hacen a Rust un
                           lenguaje de progrmación diferente como; pertenencia, tiempos de vida y el sistema de tipos.
-                        <p>
-                          Al mismo tiempo los asistentes se podrán familiarizar con la sintaxis del lenguaje.
-                        </p>
+                          <p>
+                            Al mismo tiempo los asistentes se podrán familiarizar con la sintaxis del lenguaje.
+                          </p>
                         </p>
                         <p>
                           El workshop será una mezcla de conceptos teoricos y ejercicios cortos que apliquen a dichos conceptos.
@@ -726,9 +728,9 @@
                         <p>
                           The introductory workshop is aimed at people who want to know Rust and have experience in at least other programming language. This will serve as an introduction to the fundamental concepts
                           that make Rust a different programming language such as ownership, borrowing, lifetimes and the type system.
-                        <p>
-                          The workshop will be a mixture of theoretical concepts and short exercises to learn how to apply those concepts. Over the course of the day the attendees will be able to become familiarized with the syntax of the
-                          language.</p>
+                          <p>
+                            The workshop will be a mixture of theoretical concepts and short exercises to learn how to apply those concepts. Over the course of the day the attendees will be able to become familiarized with the syntax of the
+                            language.</p>
                       </div>
                       <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-dismiss="modal">
@@ -744,8 +746,32 @@
               <div class="event-calendar-entry-inner">
                 <div class="level">Beginner</div>
                 <div class="who_ws">
-                  <div class="name_ws">
-                    <h4 class="ws">Florian Gilcher</h4>
+                  <div class="name">
+                    <h4 data-toggle="modal" data-target="#speakerws_1_modal">Florian Gilcher</h4>
+                    <a class="speaker-modal-toggle" data-toggle="modal" data-target="#speakerws_1_modal">Know more about Florian...</a>
+                    <div class="who-modal modal fade" id="speakerws_1_modal" tabindex="-1" role="dialog" aria-labelledby="speakerws_1_modal_title" aria-hidden="true">
+                      <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="speakerws_1_modal_title">
+                              Florian Gilcher
+                            </h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                            </button>
+                          </div>
+                          <div class="modal-body">
+                            <p>Florian Gilcher is a member of the Rust community team. He's the founder of the Rust Berlin usergroup and one of the founders of RustFest. He leads two companies, asquera and Ferrous Systems, consultancies focused on
+                              distributed development and Rust development of all kinds, respectively. Florian is a Rust programmer for 5 years and trains Rust on a professional basis and in university settings.</p>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">
+                              Close
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
                   </div>
                 </div>
                 <div class="what_ws">
@@ -806,8 +832,34 @@
               <div class="event-calendar-entry-inner">
                 <div class="level">Intermediate</div>
                 <div class="who_ws">
-                  <div class="name_ws">
-                    <h4 class="ws">Sergio Benitez</h4>
+                  <div class="name">
+                    <h4 data-toggle="modal" data-target="#speaker_4_modal">Sergio Benitez</h4>
+
+                    <a class="speaker-modal-toggle" data-toggle="modal" data-target="#speakerws_2_modal">Know more about Sergio...</a>
+                    <div class="who-modal modal fade" id="speakerws_2_modal" tabindex="-1" role="dialog" aria-labelledby="speakerws_2_modal_title" aria-hidden="true">
+                      <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="speakerws_2_modal_title">
+                              Sergio Benitez
+                            </h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                            </button>
+                          </div>
+                          <div class="modal-body">
+                            <p>Sergio Benitez is a fifth-year PhD student at Stanford. His research focuses on converging research in systems, formal veriﬁcation, programming languages, and security to create secure, usable, and performant
+                              systems. He is the author of the Rocket web framework. Before Stanford, Sergio spent time working at Google, Apple, and SpaceX where he worked on projects ranging from designing anomaly detection algorithms to tuning
+                              the performance of operating systems running on rockets and other spacecraft.</p>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">
+                              Close
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
                   </div>
                 </div>
                 <div class="what_ws">
@@ -853,8 +905,33 @@
               <div class="event-calendar-entry-inner">
                 <div class="level">Intermediate</div>
                 <div class="who_ws">
-                  <div class="name_ws">
-                    <h4 class="ws">Sunjay Varma</h4>
+                  <div class="name">
+                    <h4 data-toggle="modal" data-target="#speakerws_3_modal">Sunjay Varma</h4>
+                    <a class="speaker-modal-toggle" data-toggle="modal" data-target="#speakerws_3_modal">Know more about Sunjay...</a>
+                    <div class="who-modal modal fade" id="speakerws_3_modal" tabindex="-1" role="dialog" aria-labelledby="speakerws_3_modal_title" aria-hidden="true">
+                      <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="speakerws_3_modal_title">
+                              Sunjay Varma
+                            </h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                            </button>
+                          </div>
+                          <div class="modal-body">
+                            <p>Sunjay Varma is a skilled software developer with experience in a number of different areas including compilers, web development, game development, and much more. An avid contributor to open source, Sunjay has spent
+                              much of his career creating free software and free online learning resources. In his spare time, Sunjay enjoys reading about interesting programming topics, watching comedy, playing board games, and hacking on projects
+                              online.</p>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">
+                              Close
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
                   </div>
                 </div>
                 <div class="what_ws">
@@ -909,8 +986,32 @@
               <div class="event-calendar-entry-inner">
                 <div class="level">Advanced</div>
                 <div class="who_ws">
-                  <div class="name_ws">
-                    <h4 class="ws">David Tolnay</h4>
+                  <div class="name">
+                    <h4 data-toggle="modal" data-target="#speakerws_4_modal">David Tolnay</h4>
+                    <a class="speaker-modal-toggle" data-toggle="modal" data-target="#speakerws_4_modal">Know more about David...</a>
+                    <div class="who-modal modal fade" id="speakerws_4_modal" tabindex="-1" role="dialog" aria-labelledby="speakerws_4_modal_title" aria-hidden="true">
+                      <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="speakerws_4_modal_title">
+                              David Tolnay
+                            </h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                            </button>
+                          </div>
+                          <div class="modal-body">
+                            <p>David Tolnay operates the serialization ecosystem centered around the Serde crate and the procedural macro ecosystem centered around the Syn and Quote crates. He is a member of the Rust libraries team. Ask him about
+                              Rust code that generates Rust code that generates Rust code that generates Rust code. There was a good reason for it.</p>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">
+                              Close
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
                   </div>
                 </div>
                 <div class="what_ws">
@@ -1238,16 +1339,19 @@
           <p></p>
           <p>Welcome to Montevideo! A couple of useful info.</p>
           <p>The local currency is the <strong>Uruguayan peso (UR$)</strong> (around 330 UR$ = 10 USD or 9 EUR).</p>
-          <p>The conference will take place at the <a href="https://www.balmoral.com.uy/en/" target="_blank">Auditorio Torre de las Telecomunicaciones ANTEL</a>, located in <a href="https://goo.gl/maps/TpUArKjqisu" target="_blank">Calle Guatemala, 1075</a>.</p>
+          <p>The conference will take place at the <a href="https://www.balmoral.com.uy/en/" target="_blank">Auditorio Torre de las Telecomunicaciones ANTEL</a>, located in <a href="https://goo.gl/maps/TpUArKjqisu" target="_blank">Calle Guatemala,
+              1075</a>.</p>
           <p>How to reach the venue in Montevideo from the <a href="https://www.aeropuertodecarrasco.com.uy/home/en/">Carrasco International Airport</a>:
             <ul>
               <li><strong>By bus</strong>, there are hourly connections, the trip takes approximately 40 minutes and the fare should UR$58). From the bus station in Montevideo there is another 1,5 km to reach the venue.</li>
               <li><strong>Other options</strong> include express buses (UR$181), shuttle vans (UR$400), taxis (UR$1200 to UR$1700)</li>
             </ul>
           </p>
-          <p><strong>Power sockets</strong>: the standard voltage is 230V <a href="http://internationalconfig.com/power-cords-for-uruguay-ac-power-cords.asp" target="_blank"></a> and are of <a href="https://www.wikiconnections.org/power-supplies/continents/south-america/what-can-i-connect-to-a-uruguayan-power-supply" target="_blank">Type F</a>, ensure to bring an adapter!
+          <p><strong>Power sockets</strong>: the standard voltage is 230V <a href="http://internationalconfig.com/power-cords-for-uruguay-ac-power-cords.asp" target="_blank"></a> and are of <a href="https://www.wikiconnections.org/power-supplies/continents/south-america/what-can-i-connect-to-a-uruguayan-power-supply"
+              target="_blank">Type F</a>, ensure to bring an adapter!
           </p>
-          <p>You might enjoy some time away from the keyboard! Visit the old city (Ciudad Vieja), where you can find restaurants, nightlife and the <a href="http://www.mercadodelpuerto.com/" target="_blank">Mercado del Puerto</a>; or maybe have a relaxing walk along one of the many beaches.</p>
+          <p>You might enjoy some time away from the keyboard! Visit the old city (Ciudad Vieja), where you can find restaurants, nightlife and the <a href="http://www.mercadodelpuerto.com/" target="_blank">Mercado del Puerto</a>; or maybe have a
+            relaxing walk along one of the many beaches.</p>
           <p>The average temperature in March should be around 23 &deg;C (73 &deg;F)</p>
           <p>Transport options: most common options are taxis (don't forget to tip rounding up the fare a few pesos), remises (private cars) and local buses</p>
           <p>Food ands restaurants: don't forget to tip at restaurants (10% of the bill is a reasonable choice).</p>
