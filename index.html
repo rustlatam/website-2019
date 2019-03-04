@@ -240,6 +240,9 @@
     <!-- schedule section -->
     <section class="pb50" id="schedule">
       <div class="container">
+        <div class="section_title mb30">
+          <h3 class="title">Schedule</h3>
+        </div>
         <div class="event-calendar">
           <div class="container pb30">
             <header class="pb15">
@@ -664,11 +667,8 @@
     <!-- schedule section end -->
 
     <!-- workshops section -->
-    <section class="pb30" id="workshops">
+    <section class="pb30" id="schedule">
       <div class="container">
-        <div class="section_title mb30">
-          <h3 class="title">Schedule</h3>
-        </div>
         <div class="container pb30">
           <header class="pb15">
             <h4>Workshops Day</h4>
@@ -689,7 +689,7 @@
                 <div class="level">Beginner</div>
                 <div class="who_ws">
                   <div class="name_ws">
-                    <h4 class="ws">The Rust LATAM Team</h4>
+                    <h4 class="ws-rt">The Rust LATAM Team</h4>
                   </div>
                 </div>
                 <div class="what_ws">
@@ -721,14 +721,12 @@
                         <p>
                           El workshop será una mezcla de conceptos teoricos y ejercicios cortos que apliquen a dichos conceptos.
                         </p>
-
                         <p><strong>English</strong></p>
                         <p>
                           The introductory workshop is aimed at people who want to know Rust and have experience in at least other programming language. This will serve as an introduction to the fundamental concepts
                           that make Rust a different programming language such as ownership, borrowing, lifetimes and the type system.
                         <p>
-                          The workshop will be a mixture of theoretical concepts and short exercises to learn how to apply those concepts. Over the course of the day the attendees will be able to become familiarized with the syntax of the
-                          language.</p>
+                          The workshop will be a mixture of theoretical concepts and short exercises to learn how to apply those concepts. Over the course of the day the attendees will be able to become familiarized with the syntax of the language.</p>
                       </div>
                       <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-dismiss="modal">
@@ -744,8 +742,31 @@
               <div class="event-calendar-entry-inner">
                 <div class="level">Beginner</div>
                 <div class="who_ws">
-                  <div class="name_ws">
-                    <h4 class="ws">Florian Gilcher</h4>
+                  <div class="name">
+                    <h4 data-toggle="modal" data-target="#speakerws_1_modal">Florian Gilcher</h4>
+                    <a class="speaker-modal-toggle" data-toggle="modal" data-target="#speakerws_1_modal">Know more about Florian...</a>
+                    <div class="who-modal modal fade" id="speakerws_1_modal" tabindex="-1" role="dialog" aria-labelledby="speakerws_1_modal_title" aria-hidden="true">
+                      <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="speakerws_1_modal_title">
+                              Florian Gilcher
+                            </h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                            </button>
+                          </div>
+                          <div class="modal-body">
+                            <p>Florian Gilcher is a member of the Rust community team. He's the founder of the Rust Berlin usergroup and one of the founders of RustFest. He leads two companies, asquera and Ferrous Systems, consultancies focused on distributed development and Rust development of all kinds, respectively. Florian is a Rust programmer for 5 years and trains Rust on a professional basis and in university settings.</p>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">
+                              Close
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
                   </div>
                 </div>
                 <div class="what_ws">
@@ -766,9 +787,7 @@
                       </div>
                       <div class="modal-body">
                         <p>
-                          Webassembly (WASM) is a new
-                          format and compilation target for deploying code in managed environments. Most of the times, that means using the built-in support found in browsers and its integration into JavaScript. But WASM also isn’t restricted to
-                          browsers.
+                          Webassembly (WASM) is a new format and compilation target for deploying code in managed environments. Most of the times, that means using the built-in support found in browsers and its integration into JavaScript. But WASM also isn’t restricted to browsers.
                         </p>
                         <p>
                           In the workshop, you’ll learn:
@@ -806,8 +825,33 @@
               <div class="event-calendar-entry-inner">
                 <div class="level">Intermediate</div>
                 <div class="who_ws">
-                  <div class="name_ws">
-                    <h4 class="ws">Sergio Benitez</h4>
+                  <div class="name">
+                    <h4 data-toggle="modal" data-target="#speaker_4_modal">Sergio Benitez</h4>
+                    <a class="speaker-modal-toggle" data-toggle="modal" data-target="#speakerws_2_modal">Know more about Sergio...</a>
+                    <div class="who-modal modal fade" id="speakerws_2_modal" tabindex="-1" role="dialog" aria-labelledby="speakerws_2_modal_title" aria-hidden="true">
+                      <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="speakerws_2_modal_title">
+                              Sergio Benitez
+                            </h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                            </button>
+                          </div>
+                          <div class="modal-body">
+                            <p>Sergio Benitez is a fifth-year PhD student at Stanford. His research focuses on converging research in systems, formal veriﬁcation, programming languages, and security to create secure, usable, and performant
+                              systems. He is the author of the Rocket web framework. Before Stanford, Sergio spent time working at Google, Apple, and SpaceX where he worked on projects ranging from designing anomaly detection algorithms to tuning
+                              the performance of operating systems running on rockets and other spacecraft.</p>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">
+                              Close
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
                   </div>
                 </div>
                 <div class="what_ws">
@@ -853,8 +897,31 @@
               <div class="event-calendar-entry-inner">
                 <div class="level">Intermediate</div>
                 <div class="who_ws">
-                  <div class="name_ws">
-                    <h4 class="ws">Sunjay Varma</h4>
+                  <div class="name">
+                    <h4 data-toggle="modal" data-target="#speakerws_3_modal">Sunjay Varma</h4>
+                    <a class="speaker-modal-toggle" data-toggle="modal" data-target="#speakerws_3_modal">Know more about Sunjay...</a>
+                    <div class="who-modal modal fade" id="speakerws_3_modal" tabindex="-1" role="dialog" aria-labelledby="speakerws_3_modal_title" aria-hidden="true">
+                      <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="speakerws_3_modal_title">
+                              Sunjay Varma
+                            </h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                            </button>
+                          </div>
+                          <div class="modal-body">
+                            <p>Sunjay Varma is a skilled software developer with experience in a number of different areas including compilers, web development, game development, and much more. An avid contributor to open source, Sunjay has spent much of his career creating free software and free online learning resources. In his spare time, Sunjay enjoys reading about interesting programming topics, watching comedy, playing board games, and hacking on projects online.</p>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">
+                              Close
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
                   </div>
                 </div>
                 <div class="what_ws">
@@ -909,8 +976,31 @@
               <div class="event-calendar-entry-inner">
                 <div class="level">Advanced</div>
                 <div class="who_ws">
-                  <div class="name_ws">
-                    <h4 class="ws">David Tolnay</h4>
+                  <div class="name">
+                    <h4 data-toggle="modal" data-target="#speakerws_4_modal">David Tolnay</h4>
+                    <a class="speaker-modal-toggle" data-toggle="modal" data-target="#speakerws_4_modal">Know more about David...</a>
+                    <div class="who-modal modal fade" id="speakerws_4_modal" tabindex="-1" role="dialog" aria-labelledby="speakerws_4_modal_title" aria-hidden="true">
+                      <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="speakerws_4_modal_title">
+                              David Tolnay
+                            </h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                            </button>
+                          </div>
+                          <div class="modal-body">
+                            <p>David Tolnay operates the serialization ecosystem centered around the Serde crate and the procedural macro ecosystem centered around the Syn and Quote crates. He is a member of the Rust libraries team. Ask him about Rust code that generates Rust code that generates Rust code that generates Rust code. There was a good reason for it.</p>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">
+                              Close
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
                   </div>
                 </div>
                 <div class="what_ws">
